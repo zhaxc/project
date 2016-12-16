@@ -9,11 +9,6 @@ import org.apache.shiro.authc.UnknownAccountException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.realm.Realm;
 
-/**
- * <p>User: Zhang Kaitao
- * <p>Date: 14-1-25
- * <p>Version: 1.0
- */
 public class MyRealm2 implements Realm {
 
     public String getName() {

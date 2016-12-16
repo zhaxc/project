@@ -45,6 +45,9 @@ public class LoginLogoutTest{
        
 	}
 	
+	/**
+	 * 自定义Realm
+	 */
 	@Test
     public void testCustomRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
@@ -73,6 +76,9 @@ public class LoginLogoutTest{
         subject.logout();
     }
 
+	/**
+	 * 自定义多Realm
+	 */
     @Test
     public void testCustomMultiRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
@@ -101,7 +107,9 @@ public class LoginLogoutTest{
         subject.logout();
     }
 
-
+    /**
+     * JDBCRealm TEST
+     */
     @Test
     public void testJDBCRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
