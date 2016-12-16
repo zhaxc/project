@@ -16,7 +16,6 @@ import org.apache.shiro.realm.Realm;
  */
 public class MyRealm2 implements Realm {
 
-    @Override
     public String getName() {
         return "myrealm2";
     }
