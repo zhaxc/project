@@ -6,6 +6,7 @@
   <packaging>pom</packaging>
   <modules>
   	<module>shiro2-authentication</module>
+  	<module>shiro3-authorization</module>
   </modules>
   
   <build>
