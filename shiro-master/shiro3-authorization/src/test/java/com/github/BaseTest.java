@@ -1,7 +1,6 @@
 package com.github;
 
 import org.apache.shiro.SecurityUtils;
-import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.UsernamePasswordToken;
 import org.apache.shiro.config.IniSecurityManagerFactory;
 import org.apache.shiro.mgt.SecurityManager;
@@ -10,8 +9,12 @@ import org.apache.shiro.util.Factory;
 import org.apache.shiro.util.ThreadContext;
 import org.junit.After;
 
-import junit.framework.Assert;
-
+/**
+ * 
+ * @author zhaxc
+ * @date 2016年12月19日 上午9:28:25
+ * @version 1.0
+ */
 public class BaseTest {
 	
 	@After
